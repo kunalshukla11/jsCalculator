@@ -28,4 +28,5 @@ dataNumbers.forEach((button) => {
 clearButton.addEventListener("click", () => {
   console.log("clear called");
   calculator.clear();
+  console.log("just adding this log");
 });
