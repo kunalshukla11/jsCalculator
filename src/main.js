@@ -13,7 +13,7 @@ class Calculator {
   }
   clear() {
     currentOp.innerText = "0";
-    previousOP.innerText = "0";
+    previousOP.innerText = '0';
   }
   result() {
     let result = this.previousDisplay.innerText.split("");
@@ -59,7 +59,7 @@ dataOperations.forEach((button) => {
   });
 });
 
-clearButton.addEventListener("click", () => {
+clearButton.addEventListener('click', () => {
   console.log("clear called");
   calculator.clear();
   console.log("just adding this log");
